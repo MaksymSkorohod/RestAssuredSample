@@ -5,6 +5,8 @@ import static org.hamcrest.CoreMatchers.*;
 
 public class RestAssured {
 
+    public static String baseURI;
+
     @Test
     public void restGet() {
         given()
